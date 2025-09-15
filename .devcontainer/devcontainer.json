@@ -1,0 +1,22 @@
+{
+	"name": "doma-spring-boot",
+	"image": "mcr.microsoft.com/devcontainers/java:21",
+	"features": {
+		"./setup": {}
+	},
+	"mounts": [
+		"source=dotm2,target=/home/vscode/.m2,type=volume"
+	],
+	"remoteEnv": {
+		"BYTEMAN_HOME": "/opt/byteman"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vmware.vscode-boot-dev-pack",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml"
+			]
+		}
+	}
+}
