@@ -1,5 +1,4 @@
 {
-	"name": "doma-spring-boot",
 	"image": "mcr.microsoft.com/devcontainers/java:21",
 	"features": {
 		"./setup": {}
